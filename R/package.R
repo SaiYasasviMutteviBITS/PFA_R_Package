@@ -5,7 +5,8 @@
 
 
 sumOfSquares <- function(n) {
-  for(i in 1:n+1){
+  sum_final=0
+  for(i in 1:n){
     sum_final = sum_final + (i*i)
   }
   return (sum_final)
